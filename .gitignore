@@ -1,2 +1,21 @@
-node_modules
+# compiled output
+/NestJS/nest-test-project/node_modules
+/NestJS/nest-test-project/dist
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Tests
+/NestJS/nest-test-project/coverage
+/NestJS/nest-test-project/.nyc_output
+
+#MacOS Folder Structures
 .DS_Store
+
+# IDE - VSCode
+.vscode/*
